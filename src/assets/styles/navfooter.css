@@ -1,0 +1,59 @@
+   
+    /*Menu*/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        float: left; 
+        padding: 0px 5px 0px 15px; 
+      }
+      span.menu-text {
+        margin-top: 1%;
+        font-size: 11px;
+        font-weight: bold;
+        display: block !important;
+      }
+      li a:hover {
+        color: rgb(255, 188, 30);
+      }
+       li a {
+          color: rgb(88, 88, 88);
+      }
+      span.home {
+          padding-bottom: 2em;
+          display: block !important;
+          margin: 0 auto;
+          width: 30px;
+          height: 30px;
+          background: url('../icons/Icon\ home.svg') center top no-repeat;
+          background-size:35px 35x;
+      }
+      span.promocoes {
+        padding-bottom: 2em;
+        display: block !important;
+        margin: 0 auto;
+        width: 30px;
+        height: 30px;
+        background: url('../icons/Icon\ promocoes.svg') center top no-repeat;
+        background-size:30px 30px;
+      }
+      span.postos {
+        padding-bottom: 2em;
+        display: block !important;
+        margin: 0 auto;
+        width: 30px;
+        height: 30px;
+        background: url('../icons/Icon\ postos.svg') center top no-repeat;
+        background-size:30px 30px;
+      }
+      span.extratos {
+        padding-bottom: 2em;
+        display: block !important;
+        margin: 0 auto;
+        width: 30px;
+        height: 30px;
+        background: url('../icons/Icon\ extrato.svg') center top no-repeat;
+        background-size:30px 30px;
+      }
