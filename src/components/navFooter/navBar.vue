@@ -6,29 +6,29 @@
   <nav class="d-flex justify-content-center d-lg-none navbar fixed-bottom navbar-light bg-light" >
     <ul id="nav-root">
         <li class="nav-item active" >
-          <a class="nav-link" href="#" >
+          <router-link class="nav-link" to="/">
             <span class="home"></span>
             <span class="menu-text text-primary">Home</span>
-          </a>
+          </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" >
+          <router-link class="nav-link" to="/promocoes">
             <span class="promocoes"></span>
             <span class="menu-text">Promoções</span>
-          </a>
+          </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <router-link class="nav-link" to="/postos">
             <span class="postos"></span>
             <span class="menu-text">Postos</span>
-          </a>
+          </router-link>
         </li>
         <li class="nav-item" >
-          <a class="nav-link" href="#">
+          <router-link class="nav-link" to="/extratos">
           <span class="extratos"></span>
             <span class="menu-text">
             Extratos</span>
-          </a>
+          </router-link>
         </li>
       </ul>
   </nav>
