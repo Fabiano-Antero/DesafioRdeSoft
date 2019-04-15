@@ -36,6 +36,7 @@
 </template>
 
 <script>
+
 </script>
 
 <style src="../../assets/styles/navfooter.css"></style>
